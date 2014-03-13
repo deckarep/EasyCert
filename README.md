@@ -4,11 +4,11 @@ Use EasyCert to easily generate webserver certificates against a private certifi
 Why would you want to use this?  This should only be used within company networks, never public facing.  You would use this to implement
 your own TLS connections where you are dealing in a test environment where the security doesn't really matter.  This is more about making
 sure things work across https correctly.  In other words, when you are working on anything production-level you'd want to acquire a genuine
-certificate from a trust certificate authority and probably pay for it.
+certificate from a trusted certificate authority and probably pay for it.
 
 ## Requirements
 
-This has been test and run on OSX which is comes pre-installed with openssl, that is all you need.
+This has been tested and run on OSX which is comes pre-installed with openssl, that is all you need.
 
 ## Installation
 
